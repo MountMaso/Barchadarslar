@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SetInterVal</title>
+    <style>
+        body{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+<!--     
+    <p class="count">0</p>
+    <button type="button" class="start">START</button>
+    <button type="button" class="stop">STOP</button> -->
+
+
+    <h1>Aksiya tugashiga <span id="countdown">10</span> soniya qoldi</h1>
+
+
+    <!-- <script src="./script.js"></script> -->
+    <script>
+        let countdown=document.getElementById('countdown');
+        let counTiDown=function(){
+            // console.log(typeof(countdown.textContent));
+            let currenTime=Number(countdown.textContent);
+            if(currenTime>0){
+            countdown.textContent=currenTime-1;
+            }
+            else{
+                clearInterval(timer);
+            }
+            // console.log(countdown.textContent);
+        }
+        setInterval(counTiDown, 1000);
+    </script>
+</body>
+</html>

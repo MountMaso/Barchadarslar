@@ -1,0 +1,205 @@
+@media screen and (max-width:800px) {
+    
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .bigdiv{
+        /* border:1px solid red ; */
+        padding: 10px;
+        display: flex;
+        box-shadow: 0.7px 0.7px 3px 0.2px black;
+
+    }
+    .big{
+        /* border: 1px solid red; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .box{
+        /* border: 1px solid green; */
+        padding: 10px;
+        margin: auto;
+        font-weight: bold;
+        transition: 0.5s;
+        opacity: -1;
+        
+    }
+    .box:hover{
+        background-color: green;
+        color: white;
+        cursor: pointer;
+    }
+    .icons{
+        /* border: 1px solid grey; */
+        border-radius: 50%;
+        padding: 10px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        transition: 0.7s;
+        opacity: -1
+        ;
+        
+    }
+    .icons:hover{
+        color: yellow;
+        cursor: pointer;
+        background-color: black;
+        color: wheat;
+    }
+    
+    .but{
+        padding: 10px;
+        /* margin: auto; */
+        font-weight: bold;
+        transition: 0.5s;
+        overflow: hidden;
+        box-shadow: 0.7px 0.7px 3px 0.2px black; 
+    }
+    .but:hover{
+        color: red;
+        cursor: pointer;
+        transform:rotateY(360deg);
+        box-shadow: 1px 2px 1px 2px black;
+    }
+    .navbar{
+        display: block;
+        position: absolute;
+        border: 1px solid white;
+        padding: 10px;
+        margin-top: 60px;
+        margin-left: -10px;
+        width: 100%;
+        height: 0;
+        overflow: hidden; 
+        /* opacity: 1; */
+    }
+    .divone{
+        padding: 10px;
+    }
+    .divone:hover{
+        background-color: grey;
+        border-radius: 10px;
+    }
+ 
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1800px) {
+    
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bigdiv{
+    /* border:1px solid red ; */
+    padding: 10px;
+    display: flex;
+    box-shadow: 0.7px 0.7px 3px 0.2px black;
+    
+}
+.big{
+    /* border: 1px solid red; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box{
+    /* border: 1px solid green; */
+    padding: 10px;
+    margin: auto;
+    font-weight: bold;
+    transition: 0.5s;
+    
+}
+.box:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.icons{
+    /* border: 1px solid grey; */
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: 0.7s;
+}
+.icons:hover{
+    color: green;
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+   
+}
+.but{
+    padding: 10px;
+    /* margin: auto; */
+    font-weight: bold;
+    transition: 0.5s;
+    overflow: hidden;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    }
+     .but:hover{
+     color: green;
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+    } 
+
+
+
+
+    .navbar{
+        display: block;
+        position: absolute;
+        border: 1px solid white;
+        padding: 10px;
+        margin-top: 60px;
+        margin-left: -10px;
+        width: 100%;
+        height: 0;
+        overflow: hidden; 
+        /* opacity: 1; */
+    }
+    .divone{
+        padding: 10px;
+    }
+    .divone:hover{
+        background-color: grey;
+        border-radius: 10px;
+    }
+
+
+
+
+
+}

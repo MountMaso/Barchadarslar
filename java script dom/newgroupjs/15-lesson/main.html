@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM (Document object Model)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header qismi boshlanishi -->
+    <header id="main-header" class="bg-success text-white p-4 mb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 id="header-title">Elementlar ro'yxati <span style="display: none;">new words</span></h1>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="filter" placeholder="Search Items...">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header qismi tugallanishi -->
+    <div class="container">
+        <div class="card card-body" id="main">
+            <h2 class="title">Element Qo'shish</h2>
+            <form id="addForm" class="mb-3">
+                <input type="text" class="form-control me-2" style="width: 25%; display: inline-block;" id="item">
+       
+                <input type="submit" class="btn btn-dark" value="Qo'shish" style="margin-top:-4px">
+            </form>
+            <h2 class="title">Elementlar</h2>
+            <ul id="items" class="list-group">
+                <li class="list-group-item">Element 1 <button class="btn-danger btn-sm float-end delete">X</button></li>
+                <li class="list-group-item">Element 2 <button class="btn-danger btn-sm float-end delete">X</button></li>
+                <li class="list-group-item">Element 3 <button class="btn-danger btn-sm float-end delete">X</button></li>
+                <li class="list-group-item">Element 4 <button class="btn-danger btn-sm float-end delete">X</button></li>
+            </ul>
+        </div>
+    </div>
+    <script src="app2.js"></script>
+</body>
+</html>

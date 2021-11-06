@@ -1,0 +1,126 @@
+
+@media screen and (max-width:800px) {
+    
+
+body{
+    position: relative;
+}
+.container{
+    border: 1px solid white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    top: 8px;
+    /* width: 500px; */
+    right: 30px;
+    max-width: 100%;
+
+}
+.box{
+    border: 1px solid white;
+    margin-left: 5px;
+    padding: 5px;
+
+}
+
+.btn{
+    /* border: 1px solid blue; */
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    transition: 0.7s;
+    position: absolute;
+    right: 20px;
+    margin-top: 10px;
+    background-color: white;
+    transform: scale(0.7);
+}
+
+
+i:hover{
+    transform: skew(360deg);
+    color: aqua
+}
+
+.show-power{
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    display: flex;
+    margin-left:100px;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    top: 8px;
+    right: 140px;
+    transition: 0.5s;
+    transform: scale(0.7);
+}
+}
+
+
+
+
+
+@media screen and (max-width:1800px) {
+    
+
+    body{
+        position: relative;
+    }
+    .container{
+        border: 1px solid white;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        overflow: hidden;
+        position: absolute;
+        top: 8px;
+        width: 0;
+        right: 50px;
+    
+    }
+    .box{
+        border: 1px solid white;
+        margin-left: 5px;
+        padding: 5px;
+    
+    }
+    
+    .btn{
+        /* border: 1px solid blue; */
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        transition: 0.7s;
+        position: absolute;
+        right: 20px;
+        margin-top: 10px;
+        background-color: white;
+    }
+    .box:hover{
+        color:  red;
+        cursor: pointer;
+    }
+    
+    i:hover{
+        transform: skew(360deg);
+        color: aqua
+    }
+    
+    .show-power{
+        border-bottom: 1px solid black;
+        padding: 5px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        overflow: hidden;
+        position: absolute;
+        top: 8px;
+        width: 262px;
+        right: 100px;
+        transition: 0.5s;
+    }
+    }

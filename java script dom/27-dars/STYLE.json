@@ -1,0 +1,20 @@
+[
+    {
+        "ism":"Abdulaziz",
+        "familya":"Atakhanov",
+        "yosh":23,
+        "kasbi":"Dizayner"
+    },
+    {
+        "ism":"Abror",
+        "familya":"Mahkamov",
+        "yosh":20,
+        "kasbi":"Forward"
+    },
+    {
+        "ism":"Ismoil",
+        "familya":"Abdumajidov",
+        "yosh":18,
+        "kasbi":"FullStack Developer"
+    }
+]

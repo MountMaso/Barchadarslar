@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML JSON API</title>
+</head>
+<body>
+    <h2>XML JSON API haqida gaplashamiz...</h2>
+
+
+    <script>
+        
+        let sorov=new XMLHttpRequest();
+        sorov.open('get','person.json');
+        sorov.send();
+        sorov.onload=function(){
+            // console.log(sorov.responseText);
+            let data=JSON.parse(sorov.responseText);
+            // console.log(data.yosh);
+            for(item of data){
+                console.log(item.ism);
+            }
+        }
+        // get - malumotlarni oqish faqat
+        // post - bazaga malumotlarni uzatish
+        //put - bazadagi malumotlarni ozgartirish
+        // delete - bazadagi malumotni ochirish
+
+
+
+
+
+
+
+
+
+        let cars={brand:'Toyoto',madeYear:2002,color:'black'};
+        // let carsJson='{"brand":"Toyoto","madeYear":2002,"color":"black"}';
+        console.log(cars,typeof cars);
+        // // console.log(carsJson,typeof carsJson);
+
+        // // Json malumotini js obyektiga otkazish
+        // // JSON.parse()
+        // console.log(JSON.parse(carsJson));   
+
+        // console.log(cars,typeof cars);
+        // // js obyekt malumotini JSONga otkazish
+        // console.log(JSON.stringify(cars));
+
+    </script>
+    
+</body>
+</html>

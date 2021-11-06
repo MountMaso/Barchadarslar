@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(179, 174, 174);
+    position: relative;
+}
+.head{
+    border: 1px solid rgb(179, 174, 174);
+    background:rgb(179, 174, 174);
+    width: 20px;
+    opacity: 1;
+}
+.bigdiv{
+    background-color: white;
+    padding: 10px;
+    width: 0;
+    height: 625px;
+    position: relative;
+    overflow: hidden;
+    opacity: -1;
+    /* display: none; */
+    transition: 0.5s;
+}
+.show-power{
+    width: 300px;
+    transition: 0.7s;
+    background-color: white;
+    padding: 10px;
+    height: 625px;
+    position: relative;
+    overflow: hidden;
+    /* display: block; */
+}
+.show-defoult{
+    width: 0px;
+    transition: 0.7s;
+    background-color: white;
+    padding: 10px;
+    height: 625px;
+    position: relative;
+    overflow: hidden;
+    opacity: -1;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span{
+    color: red;
+}
+.box{
+    padding: 10px; 
+    border-bottom:rgb(46, 44, 44) ;
+    margin: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+    max-width: 100%;
+ 
+}
+.box:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+}
+.divone{
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 300px;
+}
+
+i{
+    padding: 5px;
+    text-align: center;
+}
+i:hover{
+    color: blue;
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.btn{
+    color: black;
+    background-color: white; 
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.btn:hover{
+    transform: rotateY(360deg);
+}
+.defoult{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: red;
+    color: white;
+   
+}
